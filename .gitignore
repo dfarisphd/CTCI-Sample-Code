@@ -1,3 +1,14 @@
+!.gitignore
+
+!makefile
+!Makefile
+!MAKEFILE
+
+.DS_*
+.Trash*
+
+*.exe
+
 # Compiled Object files
 *.slo
 *.lo
