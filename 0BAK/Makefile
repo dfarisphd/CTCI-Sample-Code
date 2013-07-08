@@ -1,17 +1,6 @@
-123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789
-##==============================================================================
-
-## ./test-lookup-table.c
-## ./test-lookup-table
-
-## ./test-count-num-bitsset
-## /opt/local/bin/gcc-mp-4.7 -Wall -Wextra -Wno-unused-parameter -ggdb -DDEBUG -O0 -o test-count-num-bitsset test-count-num-bitsset.c
-
-##---------------------------------
-## COMPILER / LINKER SETTINGS ...
+##------------------------------------------------------------------------------
 
 # CXX:=/usr/bin/g++-4.2
-CC:=/opt/local/bin/gcc-mp-4.7
 CXX:=/opt/local/bin/g++-mp-4.7
 
 CPPFLAGS:=-I.
@@ -28,8 +17,7 @@ RMFR:=/bin/rm -fr
 
 ##------------------------------------------------------------------------------
 
-## ./test-count-num-bitsset
-PROGRAM := test-count-num-bitsset
+PROGRAM:=TestDriver
 
 SOURCES:=TestDriver.cpp
 
